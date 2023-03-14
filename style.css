@@ -1,0 +1,377 @@
+.four a{
+    padding-left: 20px;
+    color:gray;
+    background-color: white;
+    border: 0;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.drop a{
+    padding-left: 20px;
+    background-color:white;
+    color: black;
+    border: 0;
+}
+
+.menu a{
+    padding-left: 10px;
+}
+.menu{
+    margin-right: 50px;
+}
+
+.sec_1{
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.journal h1{
+    font-weight: bold;
+    padding-right: 300px;
+}
+.handle{
+    display: flex;
+    padding-right: 200px;
+}
+.handle a{
+    padding-left: 30px;
+}
+
+.handle a i{
+    border-radius:100%;
+}
+
+.blue{
+    background-color: blue;
+    color:white;
+    display: flex;
+    padding-left: 30px;
+    justify-content: space-between;
+}
+.dep_secs{
+    display: flex;
+}
+
+.blue h4{
+    padding: 25px;
+}
+.blue .dep{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-right: 55px;
+    color: black;
+    background-color: rgb(245, 205, 75);
+    text-decoration: none;
+}
+
+.blue_right{
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.frees{
+    display: flex;
+    background-color:rgba(59,74,85,255);
+    padding: 20px;    
+    justify-content: space-evenly;
+}
+.listt strong{
+    color: white;
+}
+.listt i{
+    padding: 13px 2px;
+    color:orangered;
+    padding: 20px;
+    border-radius:50%;
+    border: solid blue;   
+}
+.listt {
+    padding-left: 50px;
+}
+.listt p{
+    padding-left: 90px;
+}
+
+.why{
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 300px;
+}
+h2{
+    font-weight: bold;
+}
+
+.nav li a{ 
+    color:gray;
+    font-weight: bold;
+    font-size: 20px;
+}
+.why .nav{
+    padding-top: 20px;
+}
+.types_img{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 200px;
+}
+.types_img li{
+    list-style: none;
+    padding-left: 40px;
+}
+.types_img li img{
+    border-radius: 10px;
+    height:400px;
+}
+.first_text{
+    position:absolute;
+    top: 105%;
+    left:20%;
+    background-color:white;
+}
+.sec_text{
+    margin-top: 300px;
+    right: 90%;
+    background-color:rgb(199, 40, 40);
+    
+}
+.featured{
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 300px;
+    background-color: rgba(248,248,248,255);
+}
+
+.category{
+    background-color: rgba(238,242,245,255);
+    padding-top: 20px;
+    height: 80vh;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.cat_types_img{
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-around;
+}
+.types_img{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 200px;
+}
+.cat_types_img li{
+    list-style: none;
+    padding-left: 40px;
+}
+.cat_types_img li img{
+    border-radius: 10px;
+    height:400px;
+}
+
+.brand h2{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logos{
+    padding-top: 70px;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}
+.logos img{
+    border-radius: 10px;
+    border: solid;
+    height: 100px;
+    filter: grayscale(70%);
+}
+
+
+.gallery{
+    padding-top: 40px;
+    height: 40vh;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgba(58,72,85,255);
+    color: white;
+}
+.gallery_logo{
+    padding-top: 30px;
+}
+
+.gallery_logo img{
+    border-radius: 10px;
+    border: solid black;
+    height: 100px;
+}
+
+h3{
+    font-weight: bold;
+    padding-top: 40px;
+    text-align: center;
+}
+.saying{
+    display: flex;
+    justify-content: space-around;
+}
+
+.auth1{
+    width:400px;
+    padding-top: 40px;
+        
+}
+
+
+.auth1 i{
+    font-size: 120px;
+    color: rgb(255, 94, 0);
+}
+
+.badge1{
+    z-index: 100;
+    background-color: red;
+    color: white;
+    border-radius: 0%;
+    padding: 6px;
+    margin: 4px -10px;
+}
+.badge-overlay {
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 100;
+    -webkit-transition: width 1s ease, height 1s ease;
+    -moz-transition: width 1s ease, height 1s ease;
+    -o-transition: width 1s ease, height 1s ease;
+    transition: width 0.4s ease, height 0.4s ease
+}
+
+/* ================== Badge CSS ========================*/
+.badge {
+    margin: 0;
+    padding: 0;
+    color: white;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: normal;
+    text-transform: uppercase;
+    background: blue;
+}
+.badge::before, .badge::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    margin: 0 -1px;
+    width: 100%;
+    height: 100%;
+    background: blue;
+    min-width: 55px
+}
+
+.badge::before {
+    right: 100%
+}
+
+.badge::after {
+    left: 100%
+}
+
+.top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -ms-transform: translateX(-30%) translateY(0%) rotate(-45deg);
+    -webkit-transform: translateX(-30%) translateY(0%) rotate(-45deg);
+    transform: translateX(-30%) translateY(0%) rotate(-45deg);
+    -ms-transform-origin: top right;
+    -webkit-transform-origin: top right;
+    transform-origin: top right;
+}
+input[type='number']{
+    width: 40px;
+} 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+
+.heyy1{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .cards{
+    position: relative;
+    display: flex;
+}
+/* 
+.cards .img-box img{
+    width: 90%;
+    height: 300px;
+}
+.text-section p{
+    height: 20px;
+    width: 10%;
+    color: blue;
+    position: absolute;
+    top: 50%;
+    left:8%;
+} */ */
+
+.down_logo i{
+    text-align: center;
+    justify-content: space-between;
+}
+
+.down_logo{
+    color:blue;
+    background-color: rgba(238,238,238,255);
+    text-align: center;
+    padding-top: 50px;
+    height: 20vh;
+}
+.footer .top{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    list-style-type: none;
+}
+
+.footer ul{
+    list-style-type: none;
+    text-align: left;
+    padding-left: 200px;
+
+}
+
+.footer ul li{
+    padding-bottom: 16px;
+    color: blue;
+}
+
+.footer1{
+    display: flex;
+}
+
+.footer i{
+    opacity: 0.6;
+}
+
+.niche{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
