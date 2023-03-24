@@ -1,6 +1,7 @@
 {
     "product":[
         {
+           "id":1,
            "name":"Shoes",
            "discount":"12%",
            "price":132,
@@ -8,9 +9,10 @@
            "img":"footwear.jpeg",
            "brand":"Sony",
            "model":12233,
-           "off":20
+           "off":"SALE 50% off"
         },
           {
+           "id":2,
            "name":"Sandals",
            "discount":"12%",
            "price":132,
@@ -18,9 +20,10 @@
            "img":"sandals.jpg",
            "brand":"Sony",
            "model":12233,
-           "off":20
+           "off":"SALE 20% off"
         },
-        {
+        {        
+            "id":3,
             "name":"Headphones",
             "discount":"12%",
             "price":132,
@@ -28,9 +31,10 @@
             "img":"headphones.png",
             "brand":"Sony",
             "model":12233,
-            "off":20
+            "off":"SALE 80% off"
          },
          {
+            "id":4,
             "name":"Nike",
             "discount":"12%",
             "price":132,
@@ -38,9 +42,11 @@
             "img":"shoes.jpg",
             "brand":"Sony",
             "model":12233,
-            "off":20
+            "off":"SALE 50% off"
          },
          {
+            "id":5,
+
             "name":"Bag",
             "discount":"12%",
             "price":132,
@@ -48,7 +54,7 @@
             "img":"bags.jpg",
             "brand":"Sony",
             "model":12233,
-            "off":20
+            "off":"SALE 10% off"
          }
     ]
 }
