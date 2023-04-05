@@ -1,0 +1,105 @@
+{
+    "product":[
+        {
+           "id":1,
+           "cat":"sad",
+
+           "name":"Shoes",
+           "discount":"12%",
+           "price":132,
+           "preprice":200,
+           "img":"footwear.jpeg",
+           "brand":"Sony",
+           "model":12233,
+           "off":"SALE 50% off"
+        },
+          {
+           "id":2,
+           "cat":"s",
+           "name":"Sandals",
+           "discount":"12%",
+           "price":132,
+           "preprice":200,
+           "img":"sandals.jpg",
+           "brand":"Sony",
+           "model":12233,
+           "off":"SALE 20% off"
+        },
+        {        
+            "id":3,
+            "cat":"head",
+            "name":"Headphones",
+            "discount":"12%",
+            "price":132,
+            "preprice":200,
+            "img":"headphones.png",
+            "brand":"Sony",
+            "model":12233,
+            "off":"SALE 80% off"
+         },
+         {
+            "id":4,
+            "cat":"N",
+
+            "name":"Nike",
+            "discount":"12%",
+            "price":132,
+            "preprice":200,
+            "img":"shoes.jpg",
+            "brand":"Sony",
+            "model":12233,
+            "off":"SALE 50% off"
+         },
+         {
+            "id":5,
+            "cat":"sand",
+
+            "name":"Bag",
+            "discount":"12%",
+            "price":132,
+            "preprice":200,
+            "img":"bags.jpg",
+            "brand":"Sony",
+            "model":12233,
+            "off":"SALE 10% off"
+         },
+         {        
+            "id":6,
+            "cat":"head",
+            "name":"Headphones2",
+            "discount":"12%",
+            "price":132,
+            "preprice":200,
+            "img":"headphones.png",
+            "brand":"Sony",
+            "model":12233,
+            "off":"SALE 80% off"
+         },
+         {
+            "id":7,
+            "cat":"N",
+
+            "name":"Nikker",
+            "discount":"12%",
+            "price":132,
+            "preprice":200,
+            "img":"shoes.jpg",
+            "brand":"Sony",
+            "model":12233,
+            "off":"SALE 50% off"
+         },
+         {
+            "id":8,
+            "cat":"N",
+
+            "name":"Nikker",
+            "discount":"12%",
+            "price":132,
+            "preprice":200,
+            "img":"shoes.jpg",
+            "brand":"Sony",
+            "model":12233,
+            "off":"SALE 50% off"
+         }
+    ]
+}
